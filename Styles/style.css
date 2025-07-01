@@ -85,3 +85,50 @@ body {
   font-size: 25px;
 }
 
+.diagonal {
+  background: linear-gradient(-13deg, #00ffad 60%, white 40%);
+  padding: 80px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column.table {
+  flex-direction: row-reverse;
+}
+
+.text {
+  max-width: 500px;
+  color: #292b2c;
+}
+
+.text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.text p {
+  margin-bottom: 20px;
+  color: #00332c;
+}
+
+.image img {
+  width: 500px; 
+  height: auto;
+}
+
+.btn {
+  background-color: #0e1833;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+
