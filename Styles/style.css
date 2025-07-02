@@ -205,19 +205,18 @@ body {
 .contacto {
   background: url("../assets/images/contact-bk.jpg") no-repeat center
     center/cover;
-  padding: 100px 40px;
+
   color: white;
+
 }
 
 .contact {
-  display: flex;
+ display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  flex-wrap: wrap;
-  padding: 60px;
-  border-radius: 16px;
-}
+  align-items: center;
+  padding: 3% 9%;
+} 
+
 
 .contact .informacion {
   flex: 1;
@@ -225,14 +224,14 @@ body {
 }
 
 .contact .informacion h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 
 .contact .info p {
   margin-bottom: 10px;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .formulario {
@@ -250,10 +249,10 @@ body {
 }
 
 
-.pequeño {
+.block {
     width: 100%;
     padding: 50px;
-    height: 60%;
+    height: 35%;
     margin-bottom: 10px;
     border: 2px solid #00f5c3;
     border-radius: 6px;
@@ -261,7 +260,7 @@ body {
     color: white;
 }
 
-.grande {
+.block2 {
     width: 100%;
     height: 100px;
     padding: 10px;
@@ -284,8 +283,8 @@ body {
 }
 
 .submit {
-    width: 100%;
-    padding: 15px 0;
+    width: 104%;
+    padding: 15px ;
     border: none;
     border-radius: 25px;
     background: #00f5c3;
@@ -300,4 +299,29 @@ body {
     padding: 10px;
     outline: none;
     border-radius: 3px;
+}
+
+.footer {
+  background-color: #192440;
+  padding: 20px 90px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+}
+
+.tex-footer span {
+  color: #00f6b8;
+}
+
+.redes {
+  display: flex;
+  gap: 15px;
+}
+
+.redes i {
+  font-size: 18px;
+  color: white;
 }
