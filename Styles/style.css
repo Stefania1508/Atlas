@@ -4,9 +4,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: #ffff;
-
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffff;
 }
 
 .inicio {
@@ -15,19 +14,18 @@ body {
   padding: 80px 20px;
 }
 
-.inicio .titulo{
+.inicio .titulo {
   text-align: justify;
   color: #ffff;
   width: 800px;
   margin-left: 100px;
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: space-between;
   height: 80px;
   margin: 10px 100px;
-
 }
 
 .logo a {
@@ -36,8 +34,6 @@ body {
   text-decoration: none;
 }
 
-
-
 .titulo h1 {
   font-size: 64px;
   text-align: justify;
@@ -45,13 +41,13 @@ body {
 }
 
 .titulo .boton {
-  background: #00FFAD;
+  background: #00ffad;
   color: #192440;
   padding: 10px 20px;
   border-radius: 25px;
   text-decoration: none;
-  display: inline-block; 
-  margin-top: 35px; 
+  display: inline-block;
+  margin-top: 35px;
 }
 .smartest {
   display: flex;
@@ -63,7 +59,7 @@ body {
 .cajon {
   display: flex;
   justify-content: center;
-  gap: 60px; 
+  gap: 60px;
   max-width: 1000px;
   text-align: center;
 }
@@ -119,7 +115,7 @@ body {
 }
 
 .image img {
-  width: 500px; 
+  width: 500px;
   height: auto;
 }
 
@@ -131,4 +127,177 @@ body {
   border-radius: 50px;
 }
 
+.tarjetas {
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+  background-color: white;
+}
 
+.titulo-pre {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.precio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 1px;
+  width: 280px;
+  text-align: center;
+}
+
+.tarjeta.activa {
+  background-color: #0d112f;
+  color: rgb(255, 255, 255);
+}
+
+.tarjeta h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.valor strong {
+  font-size: 100px;
+}
+
+.tarjeta ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.boton-pre {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 24px;
+  font-size: 14px;
+  color: #000;
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid #000000;
+  text-decoration: none;
+}
+
+.boton-pre.destacado {
+  background-color: #26ff79;
+  color: black;
+  border: none;
+}
+
+.compañias {
+  background: #eceeef;
+  padding: 50px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contacto {
+  background: url("../assets/images/contact-bk.jpg") no-repeat center
+    center/cover;
+  padding: 100px 40px;
+  color: white;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 60px;
+  border-radius: 16px;
+}
+
+.contact .informacion {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact .informacion h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.contact .info p {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.formulario {
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+
+}
+
+.forms {
+    color: #00f5c3;
+    margin-bottom: 5px;
+}
+
+
+.pequeño {
+    width: 100%;
+    padding: 50px;
+    height: 60%;
+    margin-bottom: 10px;
+    border: 2px solid #00f5c3;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+}
+
+.grande {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #00f5c3;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    gap: 40px;
+}
+
+.input1,.input2 {
+    flex: 1;
+    padding: 5% 0%;
+}
+
+.submit {
+    width: 100%;
+    padding: 15px 0;
+    border: none;
+    border-radius: 25px;
+    background: #00f5c3;
+    color: #192440;
+    font-weight: bold;
+}
+
+.input-transparente {
+    background-color: transparent;
+    border: 1px solid #00FFAD;
+    color: #00FFAD;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+}
