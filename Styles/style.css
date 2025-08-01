@@ -325,3 +325,19 @@ body {
   font-size: 18px;
   color: white;
 }
+
+@media (max-width: 1279px) { 
+.image img {
+  width: 350px;
+  height: auto;
+}
+
+.text p {
+  margin-bottom: 30px;
+}
+
+.tarjeta {
+  width: 230px;
+}
+
+}
