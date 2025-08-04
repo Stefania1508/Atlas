@@ -376,3 +376,38 @@ body {
 }
 
 }
+
+@media (max-width: 768px) {
+ .inicio .titulo{
+  margin: 0%;
+ }
+
+ .cajon {
+  flex-direction: column;
+ }
+
+ .column, .column.table {
+  width: 450px;
+  flex-direction: column;
+  align-items: center;
+ }
+ 
+.diagonal {
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .contact{
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .tarjeta {
+  width: 200px;
+}
+
+.logo{
+  margin: 10px 10px;
+}
+
+}
