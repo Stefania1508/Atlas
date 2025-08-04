@@ -442,9 +442,11 @@ body {
     width: 100%;
   }
 
+
   .contact .informacion h2 {
     font-size: 50px;
     text-align: center;
+    margin-top: 50px;
   }
 
   .contact .info p {
